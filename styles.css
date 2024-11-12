@@ -1,0 +1,77 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+}
+
+.header {
+    font-weight: bold;
+}
+
+body {
+    background-color: #F8F9FA;
+    color: #212529;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings and Text */
+h1, h2, h3, h4, h5, h6 {
+    color: #3A86FF; /* Primary color for headings */
+}
+
+p {
+    color: #212529; /* Dark text color for readability */
+}
+
+/* Links */
+a {
+    color: #FF006E; /* Secondary color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFBE0B; /* Accent color on hover */
+}
+
+/* Buttons */
+button {
+    background-color: #3A86FF; /* Primary color */
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF006E; /* Change to secondary on hover */
+}
+
+/* Headers or Special Sections */
+.header {
+    background-color: #3A86FF;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #212529;
+    color: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+}
+
+header {
+    background-color: #212529;
+}
